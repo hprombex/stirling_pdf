@@ -1,18 +1,15 @@
 name: "Stirling PDF"
-version: "1.0.0"
+version: "1.0.1"
 slug: "stirling_pdf"
-description: "Locally hosted web application for various PDF operations."
+description: "Locally hosted web application that allows you to perform various operations on PDF files."
 arch:
   - aarch64
   - amd64
-  - armhf
-  - armv7
-  - i386
 startup: application
 boot: auto
 ports:
-  8080/tcp: 8080
-webui: "http://[HOST]:[PORT:8080]"
+  8282/tcp: 8080
+webui: "http://[HOST]:[PORT:8282]"
 ingress: false
 host_network: false
 options: {}
