@@ -14,10 +14,10 @@ Stirling PDF is a locally hosted web application for various PDF operations. Thi
 
 3. Configure and start the add-on.
 
-4. Access the web UI at `http://<home_assistant_ip>:8282`.
+4. Access the web UI at `http://<home_assistant_ip>:8080`.
 
 ## Configuration
 No additional configuration options are required.
 
 ## Port
-The application runs on port `8282`.
+The application runs on port `8080`.
